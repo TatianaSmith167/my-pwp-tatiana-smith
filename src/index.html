@@ -12,20 +12,26 @@
 <body>
 
 <html data-theme="synthwave"></html>
-<div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+
+<div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+    <a class = "p-5 m-5" href="#pictures">Artwork</a>
+    <a class = "p-5 m-5" href="#family">Family Photos</a>
+    <a class = "p-5 m-5" href="#contact">Contact</a>
+</div>
+
 
 <html class = "scroll-smooth"> </html>
 
 <section class="p-5 m-5">
-<img src="../public_html/img/IMG_3765.jpg" class = "align-middle shadow-purple-800 transition-shadow transition-shadow hover:shadow-lg hover:shadow-purple-800 h-12 w-12 rounded-full border-2 border-rose-300 position-center" alt="IMG_3765"/>
+<img src="../public_html/img/IMG_3765.jpg" class = "shadow-purple-800 transition-shadow hover:shadow-lg hover:shadow-purple-800 rounded-full border-2 border-rose-300 container flex place-content-center" alt="IMG_3765"/>
 </section>
 
 <p class = "text-l m-2 p-5 text-center bg-gradient-to-r from-cyan-500 to-blue-500"> About me..</p>
-<p class = "text-fuchsia-500 font-thin text-xs m-2 p-5 shadow-purple-800"> I am 25 years old, and I'm currently going through the bootcamp for Fullstack Web Development.  I have a two-year-old daughter named Nylah who has the most energy I've ever seen in a child and I wanted to really get into a solid career to give her a better future.  I have always been very interested in technology.  My last three jobs were regarding tech support for phones and Mac computers. Before this bootcamp, I did dip my toe into the art world.  I'm self-taught and here are a few pieces that I think show who I am..
+<p class = "text-fuchsia-500 font-thin text-s m-2 p-5 shadow-purple-800"> I am 25 years old, and I'm currently going through the bootcamp for Fullstack Web Development.  I have a two-year-old daughter named Nylah who has the most energy I've ever seen in a child and I wanted to really get into a solid career to give her a better future.  I have always been very interested in technology.  My last three jobs were regarding tech support for phones and Mac computers. Before this bootcamp, I did dip my toe into the art world.  I'm self-taught and here are a few pieces that I think show who I am..
 </p>
 
 
-<div class="carousel rounded-box">
+<div class="carousel rounded-box" id ="pictures">
     <div class="carousel-item">
         <img src="../public_html/img/sad-face.JPG"
                                                                                 height="150" width="150"/>
@@ -70,7 +76,7 @@
         Click here for more..
     </div>
     <div class="collapse-content">
-        <img src="../public_html/img/spirited_away.PNG" height="75" width="75" class = "rounded-lg transition-shadow hover:shadow-lg hover:shadow-purple-800 float-left m-2" alt="spirited away"/>
+        <img src="../public_html/img/spirited_away.PNG" height="75" width="75" class = "rounded-lg transition-shadow hover:shadow-lg hover:shadow-purple-800 flex-wrap flex-auto float-left m-2" alt="spirited away"/>
         <p class = "text-teal-300 font-thin text-sm m-5 p-5 shadow-purple-800"> This one right here is pretty special to me because it's from about half-way into my art journey and I can see how much I improved on some techniques.  Plus, I was really inspired by a lot of movies, specifically Studio Ghibli, which I feel encapsulates a lot of emotions that are hard to explain and that's kind of what I was hoping to do with my artwork.</p>
     </div>
 </div>
@@ -79,7 +85,7 @@
     <div class="collapse-title text-xl font-medium text-purple-500">
         Click here for more..
     </div>
-    <div class="collapse-content">
+    <div class="collapse-content" id ="family">
         <img src="../public_html/img/album_cover.JPG" class="transition-shadow hover:shadow-lg hover:shadow-purple-800 rounded-lg flloat-left" height="50" width="50" alt="cover"/>
         <p class = "text-teal-300 font-thin text-sm m-2 shadow-purple-800"> This is a more recent piece which was for an album cover.  It was the first time doing a piece for someone else that would actually be put on a platform where others can see it.  I was definitely nervous about it because I felt I wasn't ready just yet, but I went ahead and did it and people gave me really great feedback about it, and I was happy I did it.   </p>
     </div>
@@ -98,23 +104,27 @@
         <img src="../public_html/img/IMG_0766%20(1).jpg" height="150" width="150" class="rounded-lg">
     </div>
     <div class="carousel-item">
-        <img src="../public_html/img/cowboy-nylah.jpg" height="150" width="150"/>
+        <img src="../public_html/img/cowboy-nylah.jpg" height="150" width="150" class="rounded-lg"/>
     </div>
     <div class="carousel-item">
         <img
-            src="../public_html/img/me-and-my-brother.jpg" height="150" width="150"/>
+            src="../public_html/img/me-and-my-brother.jpg" height="150" width="150" class="rounded-lg"/>
     </div>
     <div class="carousel-item">
-        <img src="../public_html/img/Untitled_Artwork.JPG" height="150" width="150"/>
+        <img
+            src="../public_html/img/baby-shower.JPG" height="150" width="150" class="rounded-lg"/>
     </div>
     <div class="carousel-item">
-        <img src="../public_html/img/doodle.PNG" height="150" width="150"/>
+        <img
+            src="../public_html/img/malik-and-syre.jpg" height="150" width="150" class="rounded-lg"/>
     </div>
     <div class="carousel-item">
-        <img src="../public_html/img/truman-show.PNG" height="150" width="150"/>
+        <img
+            src="../public_html/img/nylah-beach.jpg" height="150" width="150" class="rounded-lg"/>
     </div>
     <div class="carousel-item">
-        <img src="../public_html/img/spirited_away.PNG" height="150" width="150"/>
+        <img
+            src="../public_html/img/nylah-falling.jpg" height="150" width="150" class="rounded-lg"/>
     </div>
 </div>
 <br>
@@ -130,9 +140,14 @@
 
 <p class="m-2 p-5 text-l text-center bg-gradient-to-r from-cyan-500 to-blue-500">My hopes and dreams</p>
 
-<p class="text-fuchsia-500 font-thin text-xs m-2 p-5 shadow-purple-800"> After this bootcamp I want to work on my skills to pursue a real career in web development.  I have been having an incredible time discovering the world of web design and knowing what makes a page do the cool stuff that it does.  Just like making art, there are times when frustrations and stress can get the better of you but it's good to step back, remember what you're doing it for, and push on to see the possibilities of what the end result can be.</p>
+<p class="text-fuchsia-500 font-thin text-s m-2 p-5 shadow-purple-800"> After this bootcamp I want to work on my skills to pursue a real career in web development.  I have been having an incredible time discovering the world of web design and knowing what makes a page do the cool stuff that it does.  Just like making art, there are times when frustrations and stress can get the better of you, but it's good to step back, remember what you're doing it for, and push on to see the possibilities of what the end result can be.</p>
 <br>
 </body>
 </html>
 
-<div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+
+
+
+
+
+<p class="h-14 bg-gradient-to-r from-purple-500 to-pink-500 container flex place-content-center" id = "contact">Contact Me!</p>
